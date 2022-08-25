@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+  }
+
+body {
+    background-image: url(D_NQ_NP_815861-MLB43350308867_092020-W.jpg), url(depositphotos_51926417-stock-photo-hands-holding-the-sun-at.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 400px, 30px;
+    background-color: gray;
+    text-align: center;
+    background-attachment: scroll, fixed; /*scroll pra sumir da tela*/
+    text-decoration: underline;
+    color: whitesmoke;
+    justify-content: center;
+}  
+  
+#d1, #d2, #d3, #pa4 {
+    border: 10px dotted #000;
+    padding : 0px 10px 50px 10px; /*padding: topo direita baixo esquerda*/
+    background-color: #0F0;
+    /*background-image: ;*/
+}
+
+#d1 {
+    background-clip: border-box;
+}
+
+#d2 {
+    background-clip: padding-box;
+}
+
+#d3 {
+    background-clip: content-box;
+}
+
+#pa4{
+    background-clip: padding-box;
+}
+#pa5{
+    margin-top: 20px;
+}
+
+#aula7 {
+    width: 400px;
+    height: 200px;
+    background: #AAA url(D_NQ_NP_815861-MLB43350308867_092020-W.jpg) no-repeat center 0px / 100%;
+}
+
+#aula8 {
+    background-image: url(depositphotos_51926417-stock-photo-hands-holding-the-sun-at.jpg);
+    background-repeat: no-repeat;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    background-color: #DDD;
+    border-style: outset;
+    border-width: 20px;
+    border-color: #F00;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    width: 300px;
+    color: black;
+    border-top: #000 solid 10px;
+    border-right: #00F double 10px;
+    border-bottom: #F00 dotted 10px;
+    border-left: #0F0 groove 10px;
+
+    border-top-width: 10px;
+    border-right-width: 10px; 
+    border-bottom-width: 10px;
+    border-left-width: 10px;  
+
+    border-radius: 20px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    width: 300px;
+    color: black;
+    border-top: #000 solid 10px;
+    border-right: #00F double 10px;
+    border-bottom: #F00 dotted 10px;
+    border-left: #0F0 groove 10px;
+
+    border-top-width: 10px;
+    border-right-width: 10px; 
+    border-bottom-width: 10px;
+    border-left-width: 10px;  
+
+    border-radius: 0px 20px 0px 40px;
+}
+#bla{
+    border: 30px solid;
+    border-image:url(D_NQ_NP_815861-MLB43350308867_092020-W.jpg) 30 round;
+    font-size: 80pt;
+    color: black;
+    text-shadow: 5px 5px 10px #888, 10px 10px 5px greenyellow;
+    text-align: justify;
+    text-transform: capitalize;
+    text-decoration: none;
+    text-indent: 100px;
+    letter-spacing: 2px;
+}

@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+#cabecalho{
+    margin-bottom: 5%;
+    text-indent: 10px;
+    padding-top: 20px;
+}
+#menu{
+    width: 100%;
+    height: 60px;
+    background-color: tomato;
+    text-indent: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+}
+#m1, #m2, #m3, #m4, #m5, #m6{
+    padding-right: 20px;
+   
+}
+#center{
+
+        display: flex;
+        display: -webkit-flex;
+        display: -moz-flex;
+        
+        /* Quebra de linha */
+        flex-wrap: nowrap;
+        -webkit-flex-wrap:nowrap;
+        -moz-flex-wrap:wrap;
+
+        justify-content: center;/*Alinhamento horizontal : flex-start - center - flex-end*/
+        -webkit-flex-wrap:flex-start;
+        -moz-flex-justify-content:flex-start;    
+
+        /* Alinhamento vertical : flex-start - center - flex-end*/
+        align-items: flex-start;
+        -webkit-align-items:flex-start;
+        -moz-align-items:flex-start;
+
+        /* Direção dos elemnetos : row - column | reverse */
+        flex-direction: row;
+
+        padding: 4px 40px 4px 40px;
+
+}
+#c1, #c2, #c3, #c4, #c4, #c5, #c6, #c7{
+    border:2px solid rgb(153, 8, 73);
+    border-radius: 5%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0px 5px 0px 5px;
+}
+
+#pedecalho{
+    width: 100%;
+    height: 60px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: white;
+}

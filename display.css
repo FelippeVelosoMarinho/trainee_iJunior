@@ -1,0 +1,83 @@
+div, span{
+    border: 1px solid #000;
+    background-color: tomato;
+    margin:10px;
+    width: 100px;
+    height: 100px;
+    vertical-align: bottom;
+    text-align: center;
+    line-height: 500%;
+
+    flex-grow: 1;
+    flex-shrink: 0;
+    
+}
+#d1{
+    display: inline-block;
+}
+#s1{
+    display: inline-block;
+}
+#d2{
+    display:inline-block;
+}
+#s2{
+    display:inline-block;
+}
+section{
+    border:3px solid #f00;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    
+    /* Quebra de linha */
+    flex-wrap: nowrap;
+    -webkit-flex-wrap:nowrap;
+    -moz-flex-wrap:wrap;
+
+    justify-content: flex-start;/*Alinhamento horizontal : flex-start - center - flex-end*/
+    -webkit-flex-wrap:flex-start;
+    -moz-flex-justify-content:flex-start;    
+
+    /* Alinhamento vertical : flex-start - center - flex-end*/
+    align-items: flex-start;
+    -webkit-align-items:flex-start;
+    -moz-align-items:flex-start;
+
+    /* Direção dos elemnetos : row - column | reverse */
+    flex-direction: row;
+
+}
+
+#dd1{
+    order: 6;
+    width: 100px;
+    flex-grow: 1;/*estica até o final da página*/
+}
+
+#dd2{
+    order: 2;
+    width: 100px;
+    flex-basis: 20%;
+}
+
+#dd3{
+    order: 3;
+    width: 100px;
+}
+
+#dd4{
+    order: 4;
+    width: 100px;
+}
+
+#dd5{
+    order: 5;
+    width: 100px;
+}
+
+#dd6{
+    order: 1;
+    width: 100px;
+    flex-grow: 1;/*estica até o começo da página*/
+}
