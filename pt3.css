@@ -1,0 +1,20 @@
+p{
+    font-size: 30px;
+    columns: 2;
+    column-gap: 20px;
+    column-rule: 2px outset black;
+    border: 2px;
+    padding: 20px;
+}
+p::first-letter{
+    color: red;
+    font-size: 40px;
+}
+p::first-line{
+    background: #ff0;
+}
+
+::selection{
+    color: green;
+    background: red;
+}
